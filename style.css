@@ -75,11 +75,14 @@ img:hover {
 
 figcaption {
     position: absolute; 
-    bottom: 12%; 
     color: white; 
     font-size: 1em;
     background-color: var(--blue);
     padding: 0.5em; 
+}
+
+.first figcaption {
+    bottom: 12%;
 }
 
 .others {
@@ -89,7 +92,8 @@ figcaption {
 }
 
 .others img{
-    margin: 0.5em 0em; 
+    margin: 0.5em 0em;
+    position: relative; 
 }
 
 .contact {
