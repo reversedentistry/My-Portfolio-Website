@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, Arial, serif;
     background-color: rgb(91, 238, 157);
     
 }
@@ -35,7 +35,9 @@ header ul li{
 
 li {
     padding: 0.5em;
-}
+    font-weight: bold;
+    font-size: large;
+}    
 
 h2 {
     text-align: center;
@@ -45,7 +47,8 @@ h2 {
 p {
     text-align: center;
     margin: 1em;
-    padding: 1.5em; 
+    padding: 1em; 
+    font-family: Verdana, Geneva, Tahoma, serif;
     
 }
 
@@ -111,8 +114,9 @@ img:hover {
 }
 
 footer {
-    margin: 1em 0.5em 0.5em;
-    background-color: rgb(7, 131, 96);
+    margin: 1em 0 0;
+    padding: 1em 0em;
+    background-color: rgb(4, 185, 134);
 }
 
 footer ul {
