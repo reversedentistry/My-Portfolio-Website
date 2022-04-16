@@ -45,6 +45,7 @@ h2 {
 p {
     text-align: center;
     margin: 1em;
+    padding: 1.5em; 
     
 }
 
@@ -111,6 +112,7 @@ img:hover {
 
 .contact {
     margin: 1em 0.5em 0.5em;
+    background-color: rgb(7, 131, 96);
 }
 
 .contact ul {
