@@ -17,11 +17,11 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(51, 202, 159);
+    /* background-color: rgb(51, 202, 159); */
     margin-bottom: 20px;
     padding: 15px;
-      
-} 
+    background-image: linear-gradient(rgb(119, 244, 208) 0%, rgb(7, 131, 96) 100%); 
+}
 
 header h1 {
     flex-grow: 1;  
@@ -115,7 +115,6 @@ img:hover {
 
 .contact ul {
     display: flex;
-    /* border: solid red; */
     justify-content: space-evenly;
 }
 
