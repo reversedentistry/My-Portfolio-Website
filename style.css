@@ -93,16 +93,20 @@ img:hover {
     position: relative; 
 }
 
-.second {
+.second, .third, .fourth, .fifth {
     position: relative;
 }
 
-.second figcaption {
+.second figcaption, .third figcaption, .fourth figcaption, .fifth figcaption {
     position: absolute; 
     z-index: 1;
     margin: 0; 
     padding: 0;
-    bottom: 8%; 
+    bottom: 9%; 
+    font-size: 1em;
+    background-color: var(--blue);
+    padding: 0.5em;
+    color: white; 
 }
 
 .contact {
