@@ -8,7 +8,7 @@
 
 body {
     font-family: Georgia, Arial, serif;
-    background-color: rgb(91, 238, 157);
+    background-color: rgb(149, 237, 188);
     
 }
 
@@ -28,20 +28,25 @@ header h1 {
      
 }
 
+li {
+    padding: 0.5em;
+    font-weight: bold;
+    font-size: large;
+}  
+
 header ul li{
     display: inline;
     list-style-type: none;
 }
 
-li {
-    padding: 0.5em;
-    font-weight: bold;
-    font-size: large;
-}    
-
 h2 {
     text-align: center;
     margin: auto;
+}
+
+hr {
+    margin-top: 00.75em;
+    background-color: rgb(89, 6, 136);
 }
 
 p {
