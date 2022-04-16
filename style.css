@@ -110,17 +110,17 @@ img:hover {
     color: white; 
 }
 
-.contact {
+footer {
     margin: 1em 0.5em 0.5em;
     background-color: rgb(7, 131, 96);
 }
 
-.contact ul {
+footer ul {
     display: flex;
     justify-content: space-evenly;
 }
 
-.contact ul li {
+footer ul li {
     list-style-type: none;
     
 }
