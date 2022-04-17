@@ -22,7 +22,7 @@ As time goes on and my skillset grows, I hope to add more interactivity through 
 ![A screenshot of my webpage opened in a browser](./assets/screenshot.PNG)
 
 ### Github Link for Application
-[The link to the final product] (https://reversedentistry.github.io/Sheryl-Hu-s-Portfolio-Website/)
+[The link to the final product](https://reversedentistry.github.io/Sheryl-Hu-s-Portfolio-Website/)
 
 
 
