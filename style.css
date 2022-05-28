@@ -9,7 +9,7 @@
 
 body {
     font-family: Georgia, Arial, serif;
-    background-color: rgb(149, 237, 188);
+    /* background-color: rgb(147, 93, 161); */
     
 }
 
@@ -20,12 +20,19 @@ header {
     align-items: center;
     margin-bottom: 20px;
     padding: 15px;
-    background-image: linear-gradient(rgb(119, 244, 208) 0%, rgb(7, 131, 96) 100%); 
+    /* background-image: linear-gradient(rgb(119, 244, 208) 0%, rgb(7, 131, 96) 100%);  */
 }
 
 header h1 {
     flex-grow: 1;  
      
+}
+
+nav {
+    width: 100%;
+    padding: 0;
+    margin: 0; 
+    border: 0; 
 }
 
 li {
@@ -34,14 +41,19 @@ li {
     font-size: large;
 }  
 
+header ul {
+    text-align: right;
+}
+
 header ul li{
     display: inline;
     list-style-type: none;
 }
 
 h2 {
-    text-align: center;
+    /* text-align: center; */
     margin: auto;
+    
 }
 
 hr {
@@ -62,10 +74,13 @@ hr {
 }
 
 p {
-    text-align: center;
-    margin: 1em;
-    padding: 1em; 
+    word-wrap: normal;
+    margin-top: 1.5em;
+    padding: 0.3em; 
+    border-style: dotted;
+    background-color: lavenderblush;
     font-family: Verdana, Geneva, Tahoma, serif;
+    
     
 }
 
@@ -99,7 +114,7 @@ img:hover {
     color: white; 
     font-size: 1em;
     background-color: var(--blue);
-    padding: 0.5em; 
+    padding: auto; 
     bottom: 12%; 
 }
 
@@ -126,7 +141,7 @@ img:hover {
     bottom: 9%; 
     font-size: 1em;
     background-color: var(--blue);
-    padding: 0.5em;
+    padding: auto;
     color: white; 
 }
 
@@ -144,6 +159,24 @@ footer ul {
 footer ul li {
     list-style-type: none;
     
+}
+
+@media screen and (max-width: 600px) {
+    #bio h2 {
+        text-align: center;
+    }
+    
+    #projects {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    header ul {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 445px) {
