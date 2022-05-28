@@ -1,63 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css"/> 
-    <link rel="stylesheet" href="./style.css"/>
-    <title>Sheryl Hu's Portfolio</title>
-  </head>
 
-  <body>
-    <header>
-      <h1>Sheryl Hu</h1>
-      <nav>
-        <ul>
-            <li><a href="#bio">Bio</a></li>
-            <li><a href="#projects">My Projects</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-     <section id="bio">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./reset.css"/>
+  <link rel="stylesheet" href="./style.css" />
+  <title>Sheryl Hu's Portfolio</title>
+</head>
+
+<body class="deep-purple accent-1">
+  <header class="deep-purple darken-1">
+    <h1>Sheryl Hu</h1>
+    <nav class="deep-purple lighten-1">
+      <ul>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="bio" class="row">
       <h2>About Me</h2>
-      <img id="self" src="./assets/self.jpg" alt="A picture of myself">
-     <p>Hello! Thanks for visiting my webpage. I'm an aspiring coder just starting my first steps in this new field. I graduated from the University of Washington in 2017 with a degree in microbiology; I originally wanted to be a dentist! But since then I've decided to change career paths, and I'm excited to be learning something new!</p>
+      <div class="col s12 m5 l3">
+        <img id="self" src="./assets/selfnew.jpg" alt="A picture of myself">
+      </div>
+      <div class="col s12 m7 l9 bio">
+        <p class="flow-text">Hello! Thanks for visiting my webpage. I'm an aspiring coder just starting my first steps
+          in this new field. I graduated from the University of Washington in 2017 with a degree in microbiology; I
+          originally wanted to be a dentist! But since then I've decided to change career paths, and I'm excited to be
+          learning something new!</p>
+      </div>
     </section>
-    <h2 id="projects">My Projects</h2>
-      <hr>
-    <section class="projects">
+
+    <!-- <hr> -->
+    <section>
+      <h2 id="projects">My Projects</h2>
       <div class="first">
         <a href="https://github.com/reversedentistry/Horiseon-codebase-refactoring" target="_blank">
           <figure><img src="./assets/application-screenshot.png" alt="A screenshot of a webpage">
-            <figcaption><h4>Code refactoring</h4></figcaption>
+            <figcaption>
+              <h4>Code refactoring</h4>
+            </figcaption>
           </figure>
         </a>
-      </div> 
+      </div>
       <div class="others">
-      <figure class="second"><img src="./assets/app2.1.jpg" alt="Placeholder image">
-        <figcaption><h4>Placeholder</h4></figcaption>
-      </figure>
-      <figure class="third"><img src="./assets/app3.jpg" alt="Placeholder image">
-        <figcaption><h4>Placeholder</h4></figcaption>
-      </figure>
-      <figure class="fourth"><img src="./assets/app4.jpg" alt="Placeholder image">
-        <figcaption><h4>Placeholder</h4></figcaption>
-      </figure> 
-      <figure class="fifth"><img src="./assets/app5.jpg" alt="Placeholder image">
-        <figcaption><h4>Placeholder</h4></figcaption>
-      </figure>
+        <figure class="second"><img src="./assets/app2.1.jpg" alt="Placeholder image">
+          <figcaption>
+            <h4>Placeholder</h4>
+          </figcaption>
+        </figure>
+        <figure class="third"><img src="./assets/app3.jpg" alt="Placeholder image">
+          <figcaption>
+            <h4>Placeholder</h4>
+          </figcaption>
+        </figure>
+        <figure class="fourth"><img src="./assets/app4.jpg" alt="Placeholder image">
+          <figcaption>
+            <h4>Placeholder</h4>
+          </figcaption>
+        </figure>
+        <figure class="fifth"><img src="./assets/app5.jpg" alt="Placeholder image">
+          <figcaption>
+            <h4>Placeholder</h4>
+          </figcaption>
+        </figure>
       </div>
     </section>
   </main>
-    <footer id="contact">
-      <h2>Contact Me</h2>
-      <ul>
-        <li><a href="https://github.com/reversedentistry">GitHub</a></li>
-        <li><a href="#">Placeholder</a></li>
-        <li><a href="#">Placeholder</a></li>
-      </ul>
-    </footer>
-  </body>
+  <footer id="contact" class="page-footer deep-purple">
+    <h2>Contact Me</h2>
+    <ul>
+      <li><a href="https://github.com/reversedentistry">GitHub</a></li>
+      <li><a href="#">Placeholder</a></li>
+      <li><a href="#">Placeholder</a></li>
+    </ul>
+  </footer>
+</body>
+
 </html>
