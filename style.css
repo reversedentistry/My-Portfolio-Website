@@ -50,14 +50,6 @@ h2 {
 
 }
 
-hr {
-    margin-top: 0.5em;
-    background-color: var(--gray);
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #self {
     margin-left: auto;
     margin-right: auto;
@@ -109,7 +101,7 @@ hr {
     font-size: 1em;
     background-color: var(--blue);
     padding: auto;
-    bottom: 12%;
+    bottom: 20%;
     font-family: "IM Fell English", serif;
 }
 
@@ -183,13 +175,34 @@ footer ul li {
 
 @media screen and (max-width: 445px) {
     header {
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     nav ul {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        flex-grow: 2em;
+       
+    }
+}
+
+@media screen and (max-width: 376px) {
+    header {
+        justify-content: center;
+    }
+    
+    nav {
+        display: flex;
+        height: 56vmin; 
+        
+    }
+
+    nav ul:not(.browser-default) {
+        flex-direction: column;
+        padding-left: 33%;
+    }
+
+    nav li {
+        align-items: center;
     }
 }
