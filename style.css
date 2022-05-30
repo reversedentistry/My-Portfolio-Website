@@ -96,6 +96,10 @@ h2 {
     color: white
 }
 
+main a:link {
+    color: var(--blue);
+}
+
 .first-deployed {
     position: absolute;
     color: white;
@@ -159,7 +163,7 @@ footer ul li {
 }
 
 @media (max-width: 1024px) {
-    .repository {
+    main a:link {
         color: white;
     }
 }
