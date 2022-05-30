@@ -80,7 +80,7 @@ h2 {
 }
 
 .projects img:hover {
-    box-shadow: 5px 5px #371aaa, 10px 10px #371aaa, 15px 15px #371aaa;
+    box-shadow: 3px 3px #371aaa, 6px 6px #371aaa, 9px 9px #371aaa;
     transform: translateX(-10px);
 
 }
@@ -96,12 +96,12 @@ h2 {
     color: white
 }
 
-.first figcaption {
+.first-deployed {
     position: absolute;
     color: white;
     font-size: 1.25em;
     background-color: var(--blue);
-    padding: auto;
+    padding: 0 1em;
     bottom: 15%;
     font-family: "IM Fell English", serif;
 }
@@ -124,20 +124,27 @@ h2 {
     position: relative;
 }
 
-.second figcaption,
-.third figcaption,
-.fourth figcaption,
-.fifth figcaption {
+.others-deployed {
     position: absolute;
     z-index: 1;
     margin: 0;
     padding: 0;
-    bottom: 9%;
+    bottom: 15%;
     font-size: 1.25em;
     background-color: var(--blue);
-    padding: auto;
+    padding: 0 1em;
     color: white;
     font-family: "IM Fell English", serif;
+}
+
+.repository {
+    font-size: 1.25em;
+    text-align: center;
+    color: var(--blue);
+}
+
+.fa-github-square {
+    size: 1.5em;
 }
 
 footer {
@@ -151,7 +158,22 @@ footer ul li {
 
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 1024px) {
+    .repository {
+        color: white;
+    }
+}
+
+@media (max-width: 929px) {
+    .first-deployed {
+        bottom: 28%;
+    }
+    .others-deployed {
+        bottom: 20%;
+    }
+}
+
+@media (max-width: 600px) {
     #bio h2 {
         text-align: center;
     }
@@ -169,13 +191,9 @@ footer ul li {
     }
 }
 
-@media screen and (max-width: 470px) {
-    .first figcaption {
-        bottom: 20%;
-    }
-}
 
-@media screen and (max-width: 445px) {
+
+@media (max-width: 445px) {
     header {
         justify-content: center;
     }
@@ -188,7 +206,7 @@ footer ul li {
     }
 }
 
-@media screen and (max-width: 376px) {
+@media (max-width: 376px) {
     header {
         justify-content: center;
     }
