@@ -162,6 +162,14 @@ footer ul li {
 
 }
 
+footer a:link {
+    color: rgb(190, 189, 255);
+}
+
+footer a:visited {
+    color: rgb(180, 180, 180);
+}
+
 @media (max-width: 1024px) {
     main a:link {
         color: white;
