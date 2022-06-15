@@ -1,4 +1,4 @@
-# Using Advanced CSS to Create a Responsive Personal Portfolio Webpage
+# Using Advanced CSS to Create a Responsive Personal Portfolio Webpage - UPDATED
 
 ## Description 
 
@@ -8,15 +8,16 @@ Because this is a webpage, standard HTML and CSS were used to build it. However,
 
 Within my own files for my page, I've created multiple flexboxes throughout the page so that text and images will appropriately wrap and change alignment and position as page sizes shift. This was the greatest challenge in building the portfolio: with so many different parts of the page, there was no single easy "cure all" template or checklist to adhere to so that each part would flex correctly. The flex properties of the image of the first showcased application are different from the properties of applications beneath it because they're sorted into separate "boxes", so the way they realign and change as screen size changes aren't identical. To this end, Google Chrome developer tools, specifically its responsive mode, were *extremely* helpful and a required tool needed to visualize flex behavior as well as pinpointing where changes needed to be made to correct strange repositioning and resizing. 
 
-Finally, in order to spice up the page to make it more visually interesting, linear gradients and pseudoclasses were incorporated within the CSS. Because this portfolio is meant to list my works, the images of the applications link to their respective projects; on standard desktop devices their borders will change color when the mouse is hovered over them to signify there is something important to them.
-
-As time goes on and my skillset grows, I hope to add more interactivity through the page using things like Javascript, as well as improve the visuals of the page even more. 
+As part of an update to the page, I've incorporated the Materialize CSS library, Google Fonts, and the Font Awesome library to add some more interesting elements to the page. Materialize is used to simplify the use of flexboxes on the page and to provide some better style to certain elements of the page. Google Fonts was used to changed the font style, and the Font Awesome library provided icons for me to add to elements like links. 
 
 
 ## Technologies
 - HTML5
 - CSS3
 - Chrome Developer Tools
+- Materialize CSS
+- Google Fonts 
+- Font Awesome
 
 ### Image of Final Page
 ![A screenshot of my webpage opened in a browser](./assets/screenshot.PNG)
